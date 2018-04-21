@@ -2,7 +2,7 @@ const Koa = require('koa');
 const Router = require('koa-router');
 const app = new Koa();
 const router = new Router();
-const PORT = '36666';
+const PORT = '35551';
 
 router.get('/', (ctx, next) => {
   ctx.body = "我是首页"
